@@ -22,7 +22,7 @@ You can download the ***metafast*** run script from the last stable release from
 * For other OS: download `metafast.jar` and run it via command `java -jar metafast.jar`.
 
 
-Alternatively, you can build the newest version of ***metafast*** from the repository:
+Alternatively, you can build the latest version of ***metafast*** from the repository:
 ~~~
 git clone https://github.com/ctlab/metafast.git
 cd metafast 
@@ -41,12 +41,12 @@ To run ***metafast*** use the following syntax:
 To view help for launch options and input parameters run `metafast.sh --help` or `metafast.sh --help-all`.
 
 By running ***metafast*** a working directory is created (by default `./workDir/`). 
-All intermidiate files, log file and final results are saved in it. 
+All intermediate files, log file and final results are saved in it. 
 
 File `output_description.txt` is created after every run in the current and working directories. 
 It contains the description of every output file produced by the ***metafast***.
 
-Metafast script also allows you to run subtools of whole process or different tools, that was included in the package. 
+Metafast script also allows you to run subtools of whole process or different tools, which were included in the package. 
 To see the list of available additional tools, run `metafast.sh --tools`.
 
 
